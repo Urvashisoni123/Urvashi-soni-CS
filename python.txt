@@ -1,0 +1,193 @@
+RULES OF VARIABLES
+-----------------------------------
+1. can't start with Number
+ex. 1='python', a1='python'
+
+2.No Space
+a 1='python'
+
+3. can't use special character
+a$ ='hello';a_1='hi';
+
+4. can't use keyword
+for=2.2
+
+
+
+PYTHON OPERATORS
+-----------------------------------
+
+7 types
+1.Arithmatic                          +,-,*,/,%,//,**
+2.Comparison/Relational Operator      >,<,<=,>=,!=,==
+3.Assignment Operator                 +,+=,-=,/=
+4.Bitwise                             &,|,^
+5.Logical Operator                    and,or,not
+6.identity Operator                   is,is not
+7.membership Operator                 in,not in
+
+-----------------------------------
+ ()--Function.Expression,Tuple
+[]--List,Indexing,slicing
+{}--Set,Dictionary
+<>-- No Use
+-----------------------------------
+
+Data Types in Python
+1. Numeric----int----a=5
+	      float----b=2.2
+	      complex=3+3j
+2.String----str-----a='hello'/a="hello"/a='''hi'''
+3. List-----------------list-----------my_list=['abc',3,3.3,2+2j]
+4.Tuple-------tuple-------my_tuple=(2,2.2,'hi','bye')
+5.Set-------------set-----------{1,23,32}
+6.Dictionary--dict{key:value}
+7.Boolean------------True,False
+
+
+-------------------------------------------
+1. String
+
+1.  Member of string is accesed by Indexing.
+a='Hello'
+a[Starting point:stop:step]    # we can't take starting with zero
+
+2. string is immutable.
+--------------------------------------------
+
+List---
+1.[]
+2.Homo/Hetro
+3. Mutable
+4. Indexing/slicing, loop
+5. append ======for insert single element
+   extend=======for insert more than one element 
+   insert=======to add element at specific position
+6.pop,clear,reverse,sort,max,min ,index      
+
+--------------------------------------------
+Tuple----
+1. []
+2. comma sep val
+3. immutable
+4.  homo/hetro
+5.indexing/slicing
+6. faster then  list
+-------------------------------------------
+Set--
+
+1. unordered
+2. indexing/slicing (no use)
+3. Unique Collection
+4 {}       
+5. s.intersection()
+   s.union()   
+   s.discard(                              
+   s.remove(),,update,max,min,len
+
+--------------------------------------------
+Data Type Dictionary
+
+
+1. Unorderd
+2. key value pair
+3. Indexing/Slicing(not possible)
+
+
+--------------------------------------------
+Statments
+
+1.Condition/Decision Making---if-elif-else
+2.Looping--For,While
+3.Exception Handling----try,Except
+--------------------------------------------
+
+Simple if
+----------
+if age>18:
+	print('A gift')
+if age>=18 and age<=20:
+	print('a gift')
+	print('a task')
+if age>20:
+	print('no gift')
+
+--------------------
+ladder
+---------
+if age>18:
+	print('A gift')
+elif age>=18 and age<=20:
+	print('a gift')
+	print('a task')
+else age>20:
+	print('no gift')
+--------------------------
+Nested
+-------
+if today=='Birthday':
+	print('kutai')
+elif today=='kuch nhi':
+	if tommorow=='janamdin':
+		print('pitai')
+	else:
+		print('sutai')
+--------------------------------
+
+range(start point(including),stop point(excluding),step(by default 0)
+
+-------------------------------------------------------------
+
+LOOP:
+-------
+1.for loop
+2.While loop
+
+for i in[1,2,3,4,5]:
+	print(i)
+
+for i in ('a','b','c','d'):
+    print(i)
+
+
+for i in 'Hello World':
+    print(i)
+----------------------------------------------------------------
+
+Function:
+----------------
+1. NO i/p NO o/p
+2. No i/p But o/p
+3. i/p butnNo o/p
+4. o/p and i/p
+--------------------
+1.Taking Multiple i/p
+2. Returning Multiple o/p
+3. Keyword Argument
+4. Default Values
+5. *args--------return tuple
+6. **kwargs-----return dictionary values
+
+---------------------------------------------------------------------
+Module--it is a .py file; Ex-OS, Math 
+Packages---it is a collection of Modules
+Libraries----it is a collection of Packages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
